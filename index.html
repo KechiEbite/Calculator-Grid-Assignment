@@ -9,29 +9,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="calculator">
-            <input type="text" class="calculator_numbs" value="0">
-            <div class="number_buttons">
-                <button class="btn green_btn">C</button>
-                <button class="btn">/</button>
-                <button class="btn">*</button>
-                <button class="btn">7</button>
-                <button class="btn">8</button>
-                <button class="btn">9</button>
-                <button class="btn minus-but">-</button>
-                <button class="btn">4</button>
-                <button class="btn">5</button>
-                <button class="btn">6</button>
-                <button class="btn btn-long">+</button>
-                <button class="btn">1</button>
-                <button class="btn">2</button>
-                <button class="btn">3</button>
-                <button class="btn">0</button>
-                <button class="btn">00</button>
-                <button class="btn blue_btn">=</button>
-            </div>
+    <div class="calculator">
+        <div class="display_screen">0</div>
+        <div class="cal_btns">
+            <button class="impt_key blue_btn" data-action="clear">C</button>
+            <button class="impt_key"data-action="divide">/</button>
+            <button class="impt_key"data-action="multiply">*</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="impt_key"data-action="subtract">-</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="impt_key long_btn" data-action="add">+</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>0</button>
+            <button>00</button>
+            <button class="equals_key green_btn"data-action="calculate">=</button>
+
         </div>
-    </div>    
+    </div>
 </body>
 </html>
