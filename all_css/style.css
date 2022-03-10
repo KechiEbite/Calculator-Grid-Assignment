@@ -60,3 +60,7 @@ button:hover {
     background-color: darkgreen;
     color: #ffffff;
 }
+.cal_btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
