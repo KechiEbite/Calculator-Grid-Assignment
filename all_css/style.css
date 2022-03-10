@@ -11,13 +11,14 @@ body {
     font-family: 'Graduate', cursive;
 }
 .calculator {
-    border: 2px solid grey;
+    border: 2px solid #062c63;
     border-radius: 3px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
+    box-shadow: 9px 0 9px 2px #041e42;
 }
 .cal_display {
     width: 100%;
