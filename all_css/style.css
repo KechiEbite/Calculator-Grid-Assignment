@@ -31,7 +31,7 @@ body {
     padding-left: 10px;
 }
 button {
-    height: 50px;
+    height: 70px;
     background-color:#c8102e;
     border: 1px solid #ff0000;
     border-radius: 2px;
@@ -47,6 +47,7 @@ button:hover {
 .blue_btn {
     background-color: #0000ff;
     border: 1px solid #0000ff;
+    grid-column: span 2;
 }
 .blue_btn:hover {
     background-color:#041e42;
@@ -63,4 +64,10 @@ button:hover {
 .cal_btns {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.long_btn {
+    height: 100%;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-row: span 2;
 }
